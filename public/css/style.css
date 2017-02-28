@@ -209,9 +209,9 @@ background-color: transparent;
 	margin-top: 200px;
 }
 
-#meet-us,
-#services,
-#works,
+#work-exp,
+#education,
+#projects,
 #about-us{
 	padding: 60px 0;
 }
@@ -250,7 +250,7 @@ a.down-btn span.fa.fa-angle-down {
 	margin: auto 0;
 }
 
-.service{
+.education{
 	border: 1px solid #222;
 	margin-top: 20px;
 	margin-bottom: 0px;
@@ -258,11 +258,11 @@ a.down-btn span.fa.fa-angle-down {
 	position: relative;
 	padding: 60px 25px;
 }
-.service:hover>h4,
-.service:hover>span.fa{
+.education:hover>h4,
+.education:hover>span.fa{
 	color: #c59a6d;
 }
-.service:hover{
+.education:hover{
 	border-color: #c59a6d;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -270,7 +270,7 @@ a.down-btn span.fa.fa-angle-down {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-.service p{
+.education p{
 	font-size: 14px;
 	padding-top: 20px;
 	font-family: 'Lato', sans-serif;
