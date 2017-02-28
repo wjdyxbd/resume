@@ -57,9 +57,9 @@
         <div class="add-margin"></div>
         <ul class="nav navmenu-nav"> <!--- Menu -->
             <li><a href="#home" class="page-scroll">Home</a></li>
-            <li><a href="#meet-us" class="page-scroll">Work Experience</a></li>
-            <li><a href="#services" class="page-scroll">Projects</a></li>
-            <li><a href="#works" class="page-scroll">Education</a></li>
+            <li><a href="#work-exp" class="page-scroll">Work Experience</a></li>
+            <li><a href="#eudcation" class="page-scroll">Education</a></li>
+            <li><a href="#projects" class="page-scroll">Projects</a></li>
             <li><a href="#about-us" class="page-scroll">About Me</a></li>
             <li><a href="#contact" class="page-scroll">Contact Me</a></li>
         </ul><!--- End Menu -->
@@ -87,23 +87,54 @@
         </div>
     </div>
 
-    <!-- Meet Us Section -->
+    <!-- Work Exp Section -->
     <div id="work-exp">
-        <div class="container">
-            <div class="row text-center">
+        <div class="container text-center">
+            <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="section-title">
                         <h2>Work Experience</h2>
                         <hr>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                    <a href="#education" class="down-btn page-scroll">
-                        <span class="fa fa-angle-down"></span>
-                    </a>
                 </div>
             </div>
+
+            <div class="space"></div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-1">
+                    <a href = "https://www.gooroo.com/">
+                        <div class="education">
+                            <span class="fa fa-server fa-3x"></span>
+                            <h4>Gooroo.com EdTech StartUp</h4>
+                            <h3>Backend Engineer</h3>
+                            <p>2015.11 - Present</p>
+                            <p>-> Patent: Chen, Yihe. 2016. COMPUTER IMPLEMENTED DYNAMIC PRICE-SURGE/DISCOUNT METHOD FOR PROVIDING TUTORING SERVICES. U.S. Patent 503914897, filed July, 13, 2016</p>
+                            <p>->Work closely with CTO in implementing backend RESTful web service and backend side system design</p>
+                            <p>->Extract, model, and visualize data from MongoDB in facilitating the investor deck</p>
+                            <p>->Integrate PayPal as a payment feature on backend side (based on Node.js running on AWS)</p>
+                            <p>->Design test cases and implementing the integration test for backend structure with Mocha</p>
+                            <p>->Design and implement structure of ranking algorithm for tutoring service utilizing Random Forest Model</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-12 col-sm-1">
+                    <div class="education">
+                        <span class="fa fa-university fa-3x"></span>
+                        <h4>GoIPO</h4>
+                        <h3>School of Computing</h3>
+                        <p>Summer 2015</p>
+                        <p>Analyzed financial report of public listed companies in the online education industry in China in order to facilitate the private placement of clients’ equity to the institutional investors</p>
+                    </div>
+                </div> 
+            </div>
+            <a href="#projects" class="down-btn page-scroll">
+                <span class="fa fa-angle-down"></span>
+            </a>
         </div>
     </div>
+
 
     <!-- Overview Video Section -->
     <div id="overview-video">
@@ -133,33 +164,39 @@
 
             <div class="row">
                 <div class="col-md-4 col-sm-4">
-                    <div class="education">
-                        <span class="fa fa-graduation-cap fa-3x"></span>
-                        <h4>Columbia University</h4>
-                        <h3>Graduate School of Art and Science</h3>
-                        <p>2015.09 - 2016.12</p>
-                        <p>Master of Art In Statistics</p>
-                    </div>
+                    <a href = "http://www.columbia.edu/">
+                        <div class="education">
+                            <span class="fa fa-graduation-cap fa-3x"></span>
+                            <h4>Columbia University</h4>
+                            <h3>Graduate School of Art and Science</h3>
+                            <p>2015.09 - 2016.12</p>
+                            <p>Master of Art In Statistics</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-4 col-sm-4">
-                    <div class="education">
-                        <span class="fa fa-university fa-3x"></span>
-                        <h4>Georgia Institute of Technology</h4>
-                        <h3>School of Computing</h3>
-                        <p>2015.08 - 2017.08</p>
-                        <p>Master of Science In Computer Science</p>
-                    </div>
+                    <a href = "http://www.cc.gatech.edu/">
+                        <div class="education">
+                            <span class="fa fa-university fa-3x"></span>
+                            <h4>Georgia Institute of Technology</h4>
+                            <h3>College of Computing</h3>
+                            <p>2015.08 - 2017.08</p>
+                            <p>Master of Science In Computer Science</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-4 col-sm-4">
-                    <div class="education">
-                        <span class="fa fa-graduation-cap fa-3x"></span>
-                        <h4>Pennsylvania State University</h4>
-                        <p>2013.08 - 2015.05</p>
-                        <p>Bachelor of Science</p>
-                        <p>Major: Staitsitcs</p>
-                    </div>
+                    <a href = "http://stat.psu.edu/">
+                        <div class="education">
+                            <span class="fa fa-graduation-cap fa-3x"></span>
+                            <h4>Pennsylvania State University</h4>
+                            <p>2013.08 - 2015.05</p>
+                            <p>Bachelor of Science</p>
+                            <p>Major: Staitsitcs</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <a href="#projects" class="down-btn page-scroll">
@@ -191,13 +228,13 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 col-sm-6 nopadding">
+                <div class="col-md-4 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a href="#">
                                 <div class="hover-text">
-                                    <h5>Logo Design</h5>
-                                    <p class="lead">Client Seal</p>
+                                    <h5>Goergia Institute of Technology</h5>
+                                    <p class="lead">Machine Learning for Trading</p>
                                     <div class="hline"></div>
                                 </div>
                                 <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
@@ -205,41 +242,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 nopadding">
+                <div class="col-md-4 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a href="#">
                                 <div class="hover-text">
-                                    <h5>Stationery</h5>
-                                    <p class="lead">Design Project</p>
-                                    <div class="hline"></div>
-                                </div>
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Branding</h5>
-                                    <p class="lead">Metalbrand</p>
+                                    <h5>Georgia Institute of Technology</h5>
+                                    <p class="lead">Muilti-threaded Get File Server</p>
                                     <div class="hline"></div>
                                 </div>
                             </a>
-                            <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
+                            <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 nopadding">
+                <div class="col-md-4 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a href="#">
                                 <div class="hover-text">
-                                    <h5>Business Card</h5>
-                                    <p class="lead">Clothing Line</p>
+                                    <h5>Georgia Institute of Technology</h5>
+                                    <p class="lead">Grocery Store Android App</p>
                                     <div class="hline"></div>
                                 </div>
                             </a>
@@ -249,30 +272,11 @@
                 </div>
             </div>
         </div>
-        <div class="space"></div>
-        <div class="text-center">
-            <a href="#" class="btn read-more-btn">Check on Dribbble</a>
-            <br>
-            <a href="#about-us" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
-        </div>
     </div>
 
     <!-- Clients Section -->
     <div id="clients">
         <div class="overlay">
-            <div class="container text-center">
-                <div class="section-title">
-                    <h2>Our Partners</h2>
-                    <hr>
-                </div>
-
-                <ul class="clients">
-                    <li><a href="#"><img src="img/clients/01.png" class="img-responsive" alt="..."></a></li>
-                    <li><a href="#"><img src="img/clients/02.png" class="img-responsive" alt="..."></a></li>
-                    <li><a href="#"><img src="img/clients/03.png" class="img-responsive" alt="..."></a></li>
-                    <li><a href="#"><img src="img/clients/04.png" class="img-responsive" alt="..."></a></li>
-                </ul>
-            </div>
         </div>
     </div>
 
